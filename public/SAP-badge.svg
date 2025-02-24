@@ -1,0 +1,13 @@
+<svg id="SAP_idEDqS_YGr_0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="91" height="45" viewBox="0 0 91 45">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1.022" x2="0.5" y2="0.022" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00aeef"/>
+      <stop offset="0.212" stop-color="#0097dc"/>
+      <stop offset="0.519" stop-color="#007cc5"/>
+      <stop offset="0.792" stop-color="#006cb8"/>
+      <stop offset="1" stop-color="#0066b3"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_24" data-name="Path 24" d="M0,45H46L91,0H0V45" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+  <path id="Path_25" data-name="Path 25" d="M54,9H45V30.1L37.2,9H29.4L22.7,26.7c-.7-4.5-5.4-6-9-7.2-2.4-.8-5-1.9-4.9-3.2,0-1,1.4-2,4.1-1.9a14.149,14.149,0,0,1,6.6,1.8l3.1-5.4A23.785,23.785,0,0,0,12.5,8.4h0c-3.8,0-7,1.2-9,3.3a7.17,7.17,0,0,0-2.1,5.2,7.378,7.378,0,0,0,3.1,6.3A21,21,0,0,0,10.6,26c2.5.8,4.5,1.4,4.5,2.9a1.974,1.974,0,0,1-.6,1.4,4.03,4.03,0,0,1-2.9.9A14.562,14.562,0,0,1,4,29L1.2,34.5A19.4,19.4,0,0,0,11,37.1h.8a12.617,12.617,0,0,0,7.7-2.4l.3-.3L19.6,36h7.6l1.4-3.5a14.636,14.636,0,0,0,4.8.8,17.171,17.171,0,0,0,4.7-.7L39,36H52.6V28.1h2.9c7,0,11.1-3.6,11.1-9.5C66.6,11.9,62.5,9,54,9ZM33.3,27.1a9.291,9.291,0,0,1-2.9-.5l2.8-9h.1l2.8,9a8.21,8.21,0,0,1-2.8.5Zm21.2-5.2h-2V14.7h2c2.6,0,4.7.9,4.7,3.6s-2.1,3.6-4.7,3.6" fill="#fff" fill-rule="evenodd"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg id="Zeta_Global_idkcdLuMni_0" data-name="Zeta Global_idkcdLuMni_0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="130.5" height="137.4" viewBox="0 0 130.5 137.4">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="4.285" x2="0.008" y2="4.285" gradientUnits="objectBoundingBox">
+      <stop offset="0.399" stop-color="#0a05b0"/>
+      <stop offset="1" stop-color="#0068d0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="6.28" y1="7.841" x2="5.28" y2="7.841" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00c2ff"/>
+      <stop offset="0.54" stop-color="#bc2676"/>
+      <stop offset="0.857" stop-color="#fffb6a"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_25" data-name="Path 25" d="M58.8,105.7,55.1,88.8l-25-20.1H0L46.5,106l6.7,31.4,77.3-68.7H100.4Z" fill="url(#linear-gradient)"/>
+  <path id="Path_26" data-name="Path 26" d="M71.7,31.7l3.6,16.9,25.1,20.1h30.1L84,31.4,77.2,0,0,68.7H30.1Z" fill="url(#linear-gradient-2)"/>
+</svg>
