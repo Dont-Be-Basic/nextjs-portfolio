@@ -2,7 +2,7 @@
 
 import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { CanvasRevealEffect } from "@/components/ui/canvas-reveal-effect";
+import { PixelCanvas } from "./ui/pixel-canvas";
 
 const Approach = () => {
   return (
@@ -16,9 +16,11 @@ const Approach = () => {
           icon={<AceternityIcon phaseNum="01." phase="Discovery" />}
           description="Where research and stakeholder input merge to form clear requirements that spark user stories and documentation."
         >
-          <CanvasRevealEffect
-            animationSpeed={5.1}
-            containerClassName="bg-black-100"
+          <PixelCanvas
+            gap={10}
+            speed={25}
+            colors={["#A7F3D0", "#34D399", "#047857"]}
+            variant="icon"
           />
         </Card>
         <Card
@@ -26,14 +28,11 @@ const Approach = () => {
           icon={<AceternityIcon phaseNum="02." phase="Exploration" />}
           description="A dynamic phase where rapid prototyping, iterative wireframing, and collaborative sessions spark innovative design ideas."
         >
-          <CanvasRevealEffect
-            animationSpeed={3}
-            containerClassName="bg-black-100"
-            colors={[
-              [236, 72, 153],
-              [232, 121, 249],
-            ]}
-            dotSize={2}
+          <PixelCanvas
+            gap={10}
+            speed={25}
+            colors={["#EC489A", "#E879F9", "#7E22CE"]}
+            variant="icon"
           />
         </Card>
         <Card
@@ -41,10 +40,11 @@ const Approach = () => {
           icon={<AceternityIcon phaseNum="03." phase="Execution" />}
           description="Turning designs into reality through agile development, rigorous user testing, and continuous refinement."
         >
-          <CanvasRevealEffect
-            animationSpeed={3}
-            containerClassName="bg-black-100"
-            colors={[[56, 189, 248]]}
+          <PixelCanvas
+            gap={10}
+            speed={25}
+            colors={["#FCD34D", "#F97316", "#9A3412"]}
+            variant="icon"
           />
         </Card>
 
@@ -53,14 +53,11 @@ const Approach = () => {
           icon={<AceternityIcon phaseNum="04." phase="Implementation" />}
           description="Bringing ideas to life by auditing builds, notifying stakeholders, updating release notes, deploying, and tracking success."
         >
-          <CanvasRevealEffect
-            animationSpeed={3}
-            containerClassName="bg-black-100"
-            colors={[
-              [167, 139, 250],
-              [129, 140, 248],
-            ]}
-            dotSize={2}
+          <PixelCanvas
+            gap={10}
+            speed={25}
+            colors={["#A5F3FC", "#22D3EE", "#0284C7"]}
+            variant="icon"
           />
         </Card>
       </div>
