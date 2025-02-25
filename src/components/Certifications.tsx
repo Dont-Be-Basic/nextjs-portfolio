@@ -18,7 +18,7 @@ const Certifications = () => {
                 alt={card.thumbnail}
                 width={128} // adjust based on your design
                 height={128} // adjust based on your design
-                className="lg:w-32 lg:h-32 md:w-20 md:h-20 w-16 h-16z-20"
+                className="lg:w-32 lg:h-32 md:w-20 md:h-20 w-16 h-16 z-20"
               />
               <div className="lg:ms-5 z-20">
                 <h1 className="text-start text-xl md:text-2xl font-bold">

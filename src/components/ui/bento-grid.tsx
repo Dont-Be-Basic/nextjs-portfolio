@@ -2,8 +2,6 @@
 
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./background-gradient-animation";
-import { Globe } from "./globe";
-import { GridGlobe } from "./grid-globe";
 import dynamic from "next/dynamic";
 
 // Dynamically import react-lottie with SSR disabled
@@ -12,6 +10,7 @@ import { useState } from "react";
 import animationData from "@/data/confetti.json";
 import MagicButton from "./magic-button";
 import { IoCopyOutline } from "react-icons/io5";
+import { WavyBackground } from "./wavy-background";
 
 export const BentoGrid = ({
   className,
@@ -134,7 +133,7 @@ export const BentoGridItem = ({
           <div className="font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">
             {title}
           </div>
-          {id === 2 && <GridGlobe />}
+          {id === 2 && <WavyBackground className="max-h-full" />}
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
               <div className="flex flex-col gap-3 lg:gap-8">
