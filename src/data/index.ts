@@ -102,7 +102,7 @@ export const projects = [
       "/jira.svg",
       "/microsoft.svg",
       "/postman.svg",
-      "/freshworks-badge.svg",
+      "/Freshworks-badge.svg",
       "/azure.svg",
     ],
     link: "https://github.com/adrianhajdin/ai_saas_app",
