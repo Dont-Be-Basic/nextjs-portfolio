@@ -1,6 +1,7 @@
 import { certs } from "@/data";
 import React from "react";
 import { CardSpotlight } from "./ui/card-spotlight";
+import Image from "next/image";
 
 const Certifications = () => {
   return (
@@ -12,10 +13,12 @@ const Certifications = () => {
         {certs.map((card) => (
           <CardSpotlight className="h-full w-full rounded-2xl" key={card.id}>
             <div className="flex lg:flex-row flex-col lg:items-center p-2 py-6 md:p-5 gap-2 z-20">
-              <img
+              <Image
                 src={card.thumbnail}
                 alt={card.thumbnail}
-                className="lg:w-32 md:w-20 w-16 z-20"
+                width={128} // adjust based on your design
+                height={128} // adjust based on your design
+                className="lg:w-32 lg:h-32 md:w-20 md:h-20 w-16 h-16z-20"
               />
               <div className="lg:ms-5 z-20">
                 <h1 className="text-start text-xl md:text-2xl font-bold">

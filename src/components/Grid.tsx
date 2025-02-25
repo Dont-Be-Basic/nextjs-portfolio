@@ -9,7 +9,6 @@ const Grid = () => {
         {gridItems.map(
           ({
             id,
-            key,
             title,
             description,
             className,

@@ -3,6 +3,7 @@
 import React from "react";
 import { projects } from "@/data";
 import { GlowingEffect } from "@/components/ui/glowing-effect";
+import Image from "next/image";
 
 interface GridItemProps {
   title: string;
@@ -24,14 +25,24 @@ const GridItem = ({ title, description, img, iconLists }: GridItemProps) => {
         />
         <div className="relative flex h-full flex-col justify-between gap-6 overflow-hidden rounded-2xl border-0.75 p-6 dark:shadow-[0px_0px_27px_0px_#2D2D2D] md:p-6">
           <div className="space-y-3">
-            <div className="relative flex items-center justify-center sm:min-w-96 w-full overflow-hidden h-3/5 mb-10">
+            <div className="relative flex items-center justify-center sm:min-w-96 w-full overflow-hidden h-48 sm:min-h-[19rem] mb-10">
               <div
-                className="relative w-full h-full overflow-hidden lg:rounded-xl"
+                className="relative w-full h-full overflow-hidden rounded-xl"
                 style={{ backgroundColor: "#13162D" }}
               >
-                <img src="/bg.png" alt="bgimg" />
+                <Image
+                  src="/bg.png"
+                  alt="bgimg"
+                  fill
+                  className="object-cover"
+                />
               </div>
-              <img src={img} alt="cover" className="z-10 absolute bottom-0" />
+              <Image
+                src={img}
+                alt="cover"
+                fill
+                className="z-10 absolute bottom-0"
+              />
             </div>
             <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
               {title}
@@ -55,7 +66,7 @@ const GridItem = ({ title, description, img, iconLists }: GridItemProps) => {
                       transform: `translateX(-${5 * index + 2}px)`,
                     }}
                   >
-                    <img src={icon} alt="icon5" className="p-2" />
+                    <Image src={icon} alt="icon5" fill className="p-2" />
                   </div>
                 ))}
               </div>
